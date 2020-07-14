@@ -120,7 +120,7 @@ h4 {
 	font-size: 50px;
 	font-family: '隶书', serif;
 	margin: 0;
-	
+
 }
 
 
@@ -3354,7 +3354,7 @@ select:focus {
 .about-style1-area{
     position: relative;
     display: block;
-    padding: 100px 0 0px;
+    padding: 10px 0 0px;
 }
 
 .about-style1-left-content {
@@ -3415,11 +3415,11 @@ select:focus {
 }
 .about-style1-content .inner-content .bottom-box .button a {
     color: #160f0a;
-    font-size: 18px;
+    font-size: 25px;
     background: transparent;
     border: 2px solid #d2d1d0 !important;
     line-height: 18px;
-    font-family: 'Archivo', sans-serif;
+    font-family: '隶书', sans-serif;
     padding: 20px 38px 19px;
 }
 .about-style1-content .inner-content .bottom-box .button a:before{
@@ -3462,16 +3462,16 @@ select:focus {
 }
 .about-style1-content .inner-content .bottom-box .phone-number .title span{
     color: #1e1713;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
-    font-family: 'Lora', serif;
+    font-family: '隶书', serif;
 }
 .about-style1-content .inner-content .bottom-box .phone-number .title h1{
     font-size: 30px;
-    line-height: 30px;
+    line-height: 20px;
     font-weight: 400;
     margin: 5px 0 0;
-    font-family: 'Archivo', sans-serif;
+    font-family: '隶书', sans-serif;
 }
 .about-style1-content .inner-content .bottom-box .phone-number .title h1 a{
     color: #777777;
@@ -5435,7 +5435,7 @@ select:focus {
     transition: all 500ms ease;
     opacity: 1;
     z-index: 1;
-    font-family: 'Archivo', sans-serif;
+    font-family: '隶书', sans-serif;
 }
 .main-menu.style4 .navigation>li:hover>a,
 .main-menu.style4 .navigation>li.current>a {
@@ -6778,7 +6778,7 @@ select:focus {
     display: block;
     padding: 46px 0 43px;
     text-align: center;
-    border-bottom: 2px solid #d5d7d8;
+    border-bottom: 2px solid #f0d593;
     transition: all 200ms linear;
     transition-delay: 0.1s;
     z-index: 1;
@@ -6846,7 +6846,7 @@ select:focus {
 .events-single-area{
     position: relative;
     display: block;
-    padding: 120px 0 0;
+    padding: 70px 0 80px;
 }
 .events-single-image-box{
     position: relative;
@@ -7898,7 +7898,7 @@ select:focus {
 .buy-tickets-area{
     position: relative;
     display: block;
-    padding: 120px 0 110px;
+    padding: 80px 0 70px;
 }
 
 .buy-tickets-content .sec-title {
@@ -7969,13 +7969,13 @@ select:focus {
     max-width: 190px;
     width: 100%;
     background: #ebebeb;
-    padding: 15px 0px;
+    padding: 15px 30px;
     color: #2d353d;
     font-size: 18px;
     font-weight: 400;
     cursor: pointer;
     transition: all 0.1s ease-out;
-    font-family: 'Lora', serif;
+    font-family: '隶书', serif;
 }
 .visit-day-select .tab-btns li:hover span,
 .visit-day-select .tab-btns li.active-btn span {
@@ -8009,7 +8009,7 @@ select:focus {
     display: block;
     max-width: 370px;
     width: 100%;
-    padding-top: 106px;
+    padding-top: 60px;
 }
 .select-tickets-box h3{
     color: #2d353d;

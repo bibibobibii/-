@@ -11,9 +11,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 		<link	rel="stylesheet"	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	  <link	rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
-	  <script	src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"	integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="crossorigin=""/></script>
-
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link	rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script	src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"	integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="crossorigin=""/></script>
+		<script	src="https://code.jquery.com/jquery-3.5.0.js"></script>
 
 	<link rel="stylesheet" href="css/aos.css">
 	<link rel="stylesheet" href="css/imp.css">
@@ -73,18 +77,19 @@
                                     <li class="dropdown current"><a href="#">主页</a>
 
                                     </li>
-                                    <li><a href="about.html">千奇百展</a></li>
+                                    <li><a href="#section-zhan">千奇百展</a></li>
                                     <li class="dropdown"><a href="#">奇妙博物馆</a>
                                         <ul>
-                                            <li><a href="art.html">分类</a></li>
-                                            <li><a href="exhibitions.html">地域</a></li>
+                                            <li><a href="#section-five">探索五大洲</a></li>
+                                            <li><a href="#section-fen">博物馆类型</a></li>
 
                                         </ul>
                                     </li>
-                                    <li><a href="gallery.html">世界环游</a></li>
+                                    <li><a href="#section-map">世界环游</a></li>
+	  <li><a href="#">注册/登录</a></li>
 
+                                    <li><a href="#section-find">联系我们</a></li>
 
-                                    <li><a href="contact.html">联系我们</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -130,18 +135,19 @@
                                 <li class="dropdown current"><a href="#">主页</a>
 
                                 </li>
-                                <li><a href="about.html">千奇百展</a></li>
+                                <li><a href="#section-zhan">千奇百展</a></li>
                                 <li class="dropdown"><a href="#">奇妙博物馆</a>
                                     <ul>
-                                        <li><a href="art.html">探索五大洲</a></li>
-                                        <li><a href="exhibitions.html">博物馆分类</a></li>
+                                        <li><a href="#section-five">探索五大洲</a></li>
+                                        <li><a href="#section-fen">博物馆分类</a></li>
 
-                                    </ul
+                                    </ul>
                                 <li>
-                                <li><a href="gallery.html">世界环游</a></li>
+                                <li><a href="#section-map">世界环游</a></li>
 
+ <li><a href="#">注册/登录</a></li>
+                                <li><a href="#section-find">联系我们</a></li>
 
-                                <li><a href="contact.html">联系我们</a></li>
                             </ul>
                         </div>
                     </nav><!-- Main Menu End-->
@@ -222,11 +228,7 @@
                     data-textalign="['center','center','center','center']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":2500,"to":"o:1;","delay":3000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
                     style="z-index: 7; white-space: nowrap;">
-                        <div class="slide-content middle-slide">
-                            <div class="btn-box">
-                                <a href="#">了解更多</a>
-                            </div>
-                        </div>
+
                     </div>
 
                 </li>
@@ -295,11 +297,7 @@
                     data-textalign="['center','center','center','center']"
                     data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":2500,"to":"o:1;","delay":3000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
                     style="z-index: 7; white-space: nowrap;">
-                        <div class="slide-content middle-slide">
-                            <div class="btn-box">
-                                <a href="#">了解更多</a>
-                            </div>
-                        </div>
+
                     </div>
 
 
@@ -711,7 +709,7 @@
 
 
 <!--Start Gallery Area-->
-<section class="gallery-area" >
+<section class="gallery-area" id="section-zhan" >
     <div class="container">
         <div class="sortable-masonry">
             <!--Filter-->
@@ -759,7 +757,7 @@
                             </div>
                         </div>
                         <div class="text-holder">
-                            <h3><a href="#">家具</a></h3>
+                            <h3><a href="BBB/2.1.html">家具</a></h3>
                             <span>东瓶西镜话家常</span>
                         </div>
                     </div>
@@ -779,7 +777,7 @@
 														</div>
 												</div>
 												<div class="text-holder">
-														<h3><a href="#">茶具</a></h3>
+														<h3><a href="BBB/2.12.html">茶具</a></h3>
 														<span>且将新火试新茶</span>
 												</div>
 										</div>
@@ -800,7 +798,7 @@
 														</div>
 												</div>
 												<div class="text-holder">
-														<h3><a href="#">服装</a></h3>
+														<h3><a href="BBB/2.11.html">服装</a></h3>
 														<span>落梅风送沾衣袂</span>
 												</div>
 										</div>
@@ -811,18 +809,18 @@
 								<div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 masonry-item  life ">
 										<div class="single-art-box-style2 marbtm50">
 												<div class="img-holder">
-														<img src="zhan/香水.jpg" alt="Awesome Image">
+														<img src="zhan/画作.jpg" alt="Awesome Image">
 														<div class="overlay-content">
 																<div class="zoom-button">
-																		<a class="lightbox-image" data-fancybox="gallery" href="zhan/香水.jpg">
+																		<a class="lightbox-image" data-fancybox="gallery" href="zhan/画作.jpg">
 																				<i class="fa fa-search-plus" aria-hidden="true"></i>
 																		</a>
 																</div>
 														</div>
 												</div>
 												<div class="text-holder">
-														<h3><a href="#">香水</a></h3>
-														<span>暗香浮动露华清</span>
+														<h3><a href="BBB/2.10.html">画作</a></h3>
+														<span>刚道繁难简更难</span>
 												</div>
 										</div>
 								</div>
@@ -1018,7 +1016,7 @@
 
 
 <!--Start Fact Counter Area-->
-<section class="latest-blog-area">
+<section class="latest-blog-area" id="section-five">
 
     <div class="container">
         <div class="sec-title text-center">
@@ -1150,14 +1148,17 @@
 
 <!--Start latest blog Style3 area -->
 
-<section class="partner-style2-area" style="background-image: url(images/breadcrumb/breadcrumb-3.jpg);">
+<section class="partner-style2-area" style="background-image: url(images/breadcrumb/breadcrumb-3.jpg);" id="section-fen">
 	    <div class="container" >
-	        <div class="row">
+
+				<div class="sec-title text-center">
+						<div class="big-title"><h1> <font color="white">奇妙博物馆之博物馆类型</font></h1></div>
+				</div>
+					<section class="latest-blog-style3-area">
+				  <div class="row">
 	            <div class="col-xl-12">
 	                <div class="top">
-										<div class="sec-title text-center">
-												<div class="big-title"><h1> <font color="white">奇妙博物馆之博物馆类型</font></h1></div>
-										</div>
+
 
 	                </div>
 
@@ -1180,7 +1181,8 @@
 	                            <h3 class="blog-title">历史博物馆</h3>
 	                            <div class="text">“历史是国家和人类的传记。”--列夫‧托尔斯泰《战争与和平》</div>
 	                            <div class="button-box">
-	                          <button type="button" class="btn btn-light">read more</button>
+																<button type="button" class="btn btn-light" data-toggle="collapse" data-target="#deo1">read more</button>
+
 	                            </div>
 	                        </div>
 	                    </div>
@@ -1199,7 +1201,7 @@
 	                            <h3 class="blog-title">自然史博物馆</h3>
 	                            <div class="text">“只有从自然中了解自然。”--法兰西斯‧培根</div>
 	                            <div class="button-box">
-																  <button type="button" class="btn btn-light">read more</button>
+																	<button type="button" class="btn btn-light" data-toggle="collapse" data-target="#deo2">read more</button>
 	                            </div>
 	                        </div>
 	                    </div>
@@ -1218,7 +1220,7 @@
 	                            <h3 class="blog-title">艺术博物馆</h3>
 	                            <div class="text">“艺术是一种使我们达到真实的假想。”--巴勃罗‧毕卡索</div>
 	                            <div class="button-box">
-																  <button type="button" class="btn btn-light">read more</button>
+																	<button type="button" class="btn btn-light" data-toggle="collapse" data-target="#deo3">read more</button>
 	                            </div>
 	                        </div>
 	                    </div>
@@ -1238,7 +1240,7 @@
 	                            <h3 class="blog-title">科学博物馆</h3>
 	                            <div class="text">“宇宙中最不能被理解的事是，宇宙是可以被理解的。”--爱因斯坦</div>
 	                            <div class="button-box">
-																  <button type="button" class="btn btn-light">read more</button>
+																<button type="button" class="btn btn-light" data-toggle="collapse" data-target="#deo4">read more</button>
 	                            </div>
 	                        </div>
 	                    </div>
@@ -1257,7 +1259,10 @@
 	                            <h3 class="blog-title">军事博物馆</h3>
 	                            <div class="text">“真理只在大炮的射程之内。”--奥托‧冯‧俾斯麥</div>
 	                            <div class="button-box">
-															  <button type="button" class="btn btn-light">read more</button>
+																<script type="text/javascript">
+
+																function elementDisplay(objid){var obj=document.getElementById(objid);if(obj.style.visibility !='hidden'){obj.style.visibility='hidden';}else{obj.style.visibility='visible';}}</script>
+																<button type="button" class="btn btn-light" data-toggle="collapse" data-target="#deo5" onclick="elementDisplay('shishi')">read more</button>
 	                            </div>
 	                        </div>
 	                    </div>
@@ -1265,14 +1270,37 @@
 	                </div>
 	            </div>
 	        </div>
-	    </div>
+
+
+					<div id="deo1" class="collapse">
+
+         <iframe class="airtable-embed" src="https://airtable.com/embed/shr6BaedkGve9TSfE?backgroundColor=teal&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+	       </div>
+					<div id="deo2" class="collapse">
+        <iframe class="airtable-embed" src="https://airtable.com/embed/shrZMTxvbnvbE4tAG?backgroundColor=teal&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+				</div>
+				<div id="deo3" class="collapse">
+				<iframe class="airtable-embed" src="https://airtable.com/embed/shrsq9j8Vy6psszAh?backgroundColor=teal&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+				</div>
+				<div id="deo4" class="collapse">
+				<iframe class="airtable-embed" src="https://airtable.com/embed/shrIU6zPtZh8o6nI7?backgroundColor=teal&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+				</div>
+				<div id="deo5" class="collapse">
+					<iframe class="airtable-embed" src="https://airtable.com/embed/shrQPBsFAYsqBtmRM?backgroundColor=teal&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+				</div>
+
+
+	</section>
+</div>
+</div>
+
 </section>
 
 
 
 
 
-<section class="google-map-area" style="background-image:url(images/parallax-background/footer-style2-bg.jpg);">
+<section class="google-map-area" style="background-image:url(images/parallax-background/footer-style2-bg.jpg);" id="section-map">
     <div class="container">
         <div class="row">
             <div class="col-xl-5">
@@ -1297,7 +1325,7 @@
                                     <span class="flaticon-allah-word"></span>
                                 </div>
                                 <div class="title">
-                                    <h2>共收录XXX个博物馆</h2>
+                                    <h2>共收录44个博物馆</h2>
                                 </div>
                             </li>
                             <li>
@@ -1305,7 +1333,7 @@
                                     <span class="flaticon-global"></span>
                                 </div>
 																<div class="title">
-																		<h2>点击地图查看世界各地博物馆</h2>
+																		<h2>点击“Show Districts”查看世界各地博物馆</h2>
 																</div>
                             </li>
                         </ul>
@@ -1319,9 +1347,10 @@
 
 
 						  <div id="map"	style="width:	600px;	height:	400px"></div>
+						  <button type="button" class="btn  btn-outline-dark" onclick="show_districts();">Show Districts</button>
 						  <script>
 
-						    var	mymap	=	L.map('map').setView([51.505,	-0.09],	13);
+						    var	mymap	=	L.map('map').setView([34.38,109.28],	3);
 
 						    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
 						      attribution:	'Map	data	&copy;	<a	href="https://www.openstreetmap.org/">OpenStreetMap</a>	contributors,	<a	href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>,	Imagery	©	<a	href="https://www.mapbox.com/">Mapbox</a>',
@@ -1331,44 +1360,30 @@
 						      zoomOffset:	-1
 						    }).addTo(mymap);
 
-						   var	marker	=	L.marker([51.5,	-0.09]).addTo(mymap);
-						   var	circle	=	L.circle([51.508,	-0.11],	{
-						     color:	'red',
-						     fillColor:	'#f03',
-						     fillOpacity:	0.5,
-						     radius:	500	}).addTo(mymap);
-						  var	polygon	=	L.polygon([
-						    [51.509,	-0.08],
-						    [51.503,	-0.06],
-						    [51.51,	-0.047]	]).addTo(mymap);
+						var	items	=	[];
+						var	airtable_read_endpoint	=	"https://api.airtable.com/v0/appnIF81VCuwFFatq/Table%201?api_key=keyxcOFGHsk0J88kd";
+						var	data	=	[];
+						$.getJSON(airtable_read_endpoint,	function(result){
+						        $.each(result.records,	function(key,value){
+						             items	=	{};
+						                  items["name"]	=	value.fields.Name;
+						                  items["url"]	=	value.fields.url;
+						                  items["image_url"]	=	value.fields.image_url;
+						                  items["latitud"]	=	value.fields.Lat;
+						                  items["longitud"]	=	value.fields.Lng;
+						                    data.push(items);
+						                    console.log(items);
+						                  });	//	end	.each
+						                });	//	end	getJSON
 
-						  function	show_districts(){
-						        L.marker([51.5,	-0.09]).addTo(mymap)
-						        .bindPopup("<b>Hello	World!</b><br/>I	am	a	popup.");
-						      }
-
-						      function	show_districts(){
-						        L.marker([22.287111,	114.191667]).addTo(mymap)
-						        .bindPopup('<a	href="https://en.wikipedia.org/wiki/North_Point"	target="_blank">North	Point</a>');
-						      }
-
-
-
-						  L.marker([51.5,	-0.09]).addTo(mymap)
-						  .bindPopup("<b>Hello	world!</b><br/>I	am	a	popup.").openPopup();
-
-						  L.circle([51.508,	-0.11],	500,	{
-						  color:	'red',
-						  fillColor:	'#f03',
-						  fillOpacity:	0.5
-						}).addTo(mymap).bindPopup("I	am	a	circle.");
-
-						L.polygon([
-						  [51.509,	-0.08],
-						  [51.503,	-0.06],
-						  [51.51,	-0.047]
-						]).addTo(mymap).bindPopup("I	am	a	polygon.");
-
+						function	show_districts(){
+						  for	(var	i	in data)	{
+						    var	latlng	=	L.latLng({	lat:	data[i].latitud,	lng:	data[i].longitud	});
+						    L.marker(latlng)
+						    .bindPopup(		'<img	src="' +	data[i].image_url+'"	width	=	"80px"><br>'+ data[i].name	+	'</a>')
+						    .addTo(mymap);
+						  }
+						}
 
 
 
@@ -1380,7 +1395,6 @@
 
 
 						    </script>
-
             </div>
         </div>
     </div>
@@ -1393,7 +1407,7 @@
 
 
 <!--Start footer area-->
-<footer class="footer-area">
+<footer class="footer-area" id="section-find">
     <div class="footer">
         <div class="container">
             <div class="row">
@@ -1426,12 +1440,12 @@
                 <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 wow fadeInUp" data-wow-delay="100ms">
                     <div class="single-footer-widget">
                         <div class="title">
-                            <h3>地址</h3>
+                            <h3>联系电话</h3>
                         </div>
                         <div class="contact-us">
-                            <p>2270 S Real Camino Lake<br> California, US 90967</p>
+
                             <div class="phone-num">
-                                <a href="tel:1800-123-4659">1 (623) 456-9400</a>
+                                <a href="tel:1800-123-4659">19919178978</a>
                             </div>
                         </div>
                     </div>
